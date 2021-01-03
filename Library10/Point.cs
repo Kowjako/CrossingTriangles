@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library10
 {
+    /*Representation of specific point*/
     public class Point
     {
         protected internal Point(int x, int y)
@@ -17,7 +18,7 @@ namespace Library10
         public int y { get; set; }
         public override string ToString()
         {
-            return $"x: {x}, y: {y}";
+            return $"x= {x}, y= {y}";
         }
     }
 }
