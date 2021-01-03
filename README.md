@@ -9,8 +9,8 @@ Biblioteka służy do :
 * funkcjonalnosc biblioteki zawarta w pliku ```Functionality.cs```
 
 # Funkcjonalność biblioteki DLL 
-![screen](https://user-images.githubusercontent.com/19534189/103483743-14b89e80-4df2-11eb-8d1f-290d24571a2a.jpg) *Tworzenie nowego trójkąta* 
-![screen](https://user-images.githubusercontent.com/19534189/103483743-14b89e80-4df2-11eb-8d1f-290d24571a2a.jpg) *Obliczanie pól trójkątów oraz porównanie*
+![screen](https://user-images.githubusercontent.com/19534189/103483743-14b89e80-4df2-11eb-8d1f-290d24571a2a.jpg) *Tworzenie nowego trójkąta*  
+![screen](https://user-images.githubusercontent.com/19534189/103483743-14b89e80-4df2-11eb-8d1f-290d24571a2a.jpg) *Obliczanie pól trójkątów oraz porównanie*  
 ![screen](https://user-images.githubusercontent.com/19534189/103483743-14b89e80-4df2-11eb-8d1f-290d24571a2a.jpg) *Sprawdzanie czy trójkąty się przecinają*
 # Screenshot
 ![screen1](https://user-images.githubusercontent.com/19534189/103483349-5431bb80-4def-11eb-97ea-c1678a296e0d.png)
