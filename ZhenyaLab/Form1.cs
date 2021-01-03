@@ -29,7 +29,7 @@ namespace ZhenyaLab
             {
                 t.Add(Functionality.newTriangle(Int32.Parse(x1.Text) * 2, Int32.Parse(y1.Text) * 2, Int32.Parse(x2.Text) * 2, Int32.Parse(y2.Text) * 2, Int32.Parse(x3.Text) * 2, Int32.Parse(y3.Text) * 2));
             }
-            else MessageBox.Show("Два треугольника уже созданы !", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else MessageBox.Show("Dwa trójkąty już zostały utworzone!", "Ostrzeżenie", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             panel1.Refresh();
         }
 
@@ -60,20 +60,20 @@ namespace ZhenyaLab
         {
             if (t.Count == 2)
             {
-                if (Functionality.comapreTriangles(t[0], t[1]) == 1) MessageBox.Show("Первый больше", "Сравнение площадей", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else MessageBox.Show("Второй больше", "Сравнение площадей", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Functionality.comapreTriangles(t[0], t[1]) == 1) MessageBox.Show("Pierwszy większy", "Porównanie pól", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                else MessageBox.Show("Drugi większy", "Porównanie pól", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else MessageBox.Show("Создайте два треугольника!", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else MessageBox.Show("Najpierw utwórz dwa trójkąty!", "Ostrzeżenie", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (t.Count == 2)
             {
-                if (Functionality.checkIfCoveredByAnother(t[0],t[1]) == true) MessageBox.Show("Треугольники пересекаются!", "Проверка пересечения", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else MessageBox.Show("Нет пересечения!", "Проверка пересечения", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Functionality.checkIfCoveredByAnother(t[0],t[1]) == true) MessageBox.Show("Trójkąty sie przecinają", "Sprawdzanie przecięcia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                else MessageBox.Show("Nie ma przecięcia!", "Sprawdzanie przecięcia", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else MessageBox.Show("Создайте два треугольника!", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else MessageBox.Show("Najpierw utwórz dwa trójkąty!", "Ostrzeżenie", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
