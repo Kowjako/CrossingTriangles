@@ -1,5 +1,6 @@
 ﻿namespace Library10
 {
+    /* Functionality of our program */
     public class Functionality
     {
         public static Triangle newTriangle(int x1, int y1, int x2, int y2, int x3, int y3)
