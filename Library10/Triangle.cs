@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Library10
 {
+    /* Representation of specific Triangle */
     public class Triangle : IComparable<Triangle>
     {
         public Triangle(int x1, int y1, int x2, int y2, int x3, int y3)
