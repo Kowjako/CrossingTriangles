@@ -14,7 +14,7 @@ namespace ZhenyaLab
     public partial class Form1 : Form
     {
         Graphics g;
-        List<Triangle> t;
+        List<Triangle> t; /* list of current triangles */
         public Form1()
         {
             InitializeComponent();
